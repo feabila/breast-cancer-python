@@ -1,0 +1,47 @@
+Tratamento de dados sobre mulheres com câncer de mama
+
+Grupo de mulheres
+    - parte que tem câncer
+    - parte que nao tem câncer
+
+1° coluna - Tem câncer
+    - no-recurrence-events - nao tem cancer
+    - recurrence-events - tem cancer
+
+2° coluna - Idade 
+    - idade da pessoa
+    - 10-19 até 90-99
+
+3° coluna - Indica se o paciente é pré ou pós menopausa
+    - It40 - antes dos 40
+    - ge40 - depois dos 40
+    - premeno - pré-menopausa
+
+4° coluna - Diâmetro do Tumor (mm) 
+    - 0-4 até 55-59
+
+5° coluna - Número de linfonodos auxiliares
+    - 0-2 até 36-39
+
+6° coluna - Penetração do tumor na cápsula do linfonodo
+    - yes
+    - no
+    - ? -> 0
+
+7° coluna - Grau de malignidade do tumor 
+    - 1, 2, 3
+
+8° coluna - Mama em que o câncer pode ocorrer
+    - left
+    - right
+
+9° coluna - Quadrante da mama afetado considerando o bico como o centro
+    - left-up
+    - left-low
+    - right-up
+    - right-low
+    - central
+
+10° coluna - Histórico de radioterapia ?
+    - yes 
+    - no
